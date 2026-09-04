@@ -51,7 +51,7 @@ const menuData = [
   },
   {
     key: 'stats',
-    label: '통계 / 분석 (MIS)',
+    label: '통계 / 분석 (MES)',
     icon: BarChart3,
     children: ['일별 통계', '월별 통계', '업체별 통계', '부품별 통계'],
   },
@@ -86,7 +86,7 @@ export default function Sidebar({ collapsed }) {
         </div>
         {!collapsed && (
           <div className="leading-tight overflow-hidden whitespace-nowrap">
-            <p className="text-[13px] font-bold text-white">AOS 연계 MIS</p>
+            <p className="text-[13px] font-bold text-white">AOS 연계 MES</p>
             <p className="text-[11px] text-slate-400">업무 관리 시스템</p>
           </div>
         )}

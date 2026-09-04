@@ -51,7 +51,7 @@ export default function LoginPage({ onLogin }) {
               <ScanLine size={22} className="text-white" />
             </div>
             <div>
-              <p className="text-[16px] font-bold">AOS 연계 MIS</p>
+              <p className="text-[16px] font-bold">AOS 연계 MES</p>
               <p className="text-[12px] text-slate-400">업무 관리 시스템</p>
             </div>
           </div>
